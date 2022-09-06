@@ -1,0 +1,143 @@
+/* cor vinho #B91646  */
+/* Bege Escuro #DFD8CA  */
+/* Bege Claro  #FBF3E4*/
+/* Verde #105652  */
+
+*{
+    margin: 0;
+    font-family: calibri;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B91646;
+    flex-direction: row;
+    height: auto;
+    padding: 12px 0px 12px 0px;
+}
+
+header p,.social-media{
+    margin: 0px 50px 0px 50px;
+}
+
+header p{
+    color: #FBF3E4;
+}
+
+.social-media a{
+    font-size: 1.5rem;
+    color: #FBF3E4;
+    margin: 0px 2px 0px 2px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 12px 0px 12px 0px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    margin: 0px 10px 0px 10px;
+}
+nav ul li:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all .4s ease-in;
+}
+nav .logo{
+    font-weight: lighter;
+    font-size: 2.5rem;
+}
+nav .logo span{
+    font-weight: 900;
+}
+.banner-prncipal{
+    height: 720px;
+    background-image: url('./img/banner1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.banner-prncipal h1{
+    font-size: 5rem;
+}
+
+
+.banner-prncipal p{
+    width: 50%;
+    text-align: center;
+    margin: 25px 0px 25px 0px;
+}
+
+.banner-prncipal .btn-whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 0px 12px 0px 12px;
+    background-color: green;
+    height: fit-content;
+    border-radius: 3px;
+}
+.banner-prncipal .btn-whatsapp i{
+    margin: 0px 12px 0px 0px;
+    color: #fff;
+    font-size: 2rem;
+}
+.banner-prncipal .btn-whatsapp p{
+    width: 100%;
+    color: #fff;
+}
+/* Produtos */
+.container-produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 25px 0px 25px 0px;
+}
+.container-produtos .box{
+    width: 500px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    margin: 16px;
+}
+.container-produtos .box:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all .4s ease-in;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5);
+    z-index: 9;
+}
+
+footer {
+    display: flex;
+    color: white;
+    background-color: #105652 ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    
+ 
+    
+    
+    height: 5rem;
+    
+
+}
+
