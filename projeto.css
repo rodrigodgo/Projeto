@@ -59,7 +59,7 @@ nav .logo span{
 }
 .banner-prncipal{
     height: 720px;
-    background-image: url('./img/banner1.jpg');
+    background-image: url('/banner1.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
